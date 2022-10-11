@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>webshot</title>
+</head>
+<body>
+    <div class="container">
+        <header><h1 class="text-center logo">webshot</h1></header>
+
+        <form class="form" onsubmit="handleSubmit();return false" action="#">
+            <input type="text" id="websiteUrl" placeholder="Ex: https://www.youtube.com/">
+            <button type="submit" id="button">screenshot</button>
+        </form>
+
+        <div id="screenshot"></div>
+
+        <footer>
+            <p class="text-center text-sm">Dai Chekkal - Rapid Api</p>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
